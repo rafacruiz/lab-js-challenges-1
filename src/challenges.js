@@ -28,14 +28,7 @@ function howManyTimes(repeatedWords, word) {
     }
   }
 
-  switch (count) {
-    case 5:
-      return 5
-    case 1:
-      return 1
-    case 0:
-      return 0
-  }
+  return count
 }
 
 
